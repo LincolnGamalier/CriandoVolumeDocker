@@ -300,13 +300,13 @@ root@UbuntuHML:/home/lincoln# docker inspect some-postgres
             "SecondaryIPAddresses": null,
             "SecondaryIPv6Addresses": null,
             "EndpointID": "7e241874e7d0653753fcd015922111209e804cfa6aeb4cf9f784486fb71c748c",
-            "Gateway": "172.17.0.*",
+            "Gateway": "172.17.*.*",
             "GlobalIPv6Address": "",
             "GlobalIPv6PrefixLen": 0,
-            "IPAddress": "172.17.0.*",
+            "IPAddress": "172.17.*.*",
             "IPPrefixLen": 16,
             "IPv6Gateway": "",
-            "MacAddress": "02:42:ac:11:00:02",
+            "MacAddress": "02:42:ac:11:00:**",
             "Networks": {
                 "bridge": {
                     "IPAMConfig": null,
@@ -314,13 +314,13 @@ root@UbuntuHML:/home/lincoln# docker inspect some-postgres
                     "Aliases": null,
                     "NetworkID": "5a495942c7893a873972b793ca46397dbe546caf4db0a0518d3e8982cd29af34",
                     "EndpointID": "7e241874e7d0653753fcd015922111209e804cfa6aeb4cf9f784486fb71c748c",
-                    "Gateway": "172.17.0.*",
-                    "IPAddress": "172.17.0.*",
+                    "Gateway": "172.17.*.*",
+                    "IPAddress": "172.17.*.*",
                     "IPPrefixLen": 16,
                     "IPv6Gateway": "",
                     "GlobalIPv6Address": "",
                     "GlobalIPv6PrefixLen": 0,
-                    "MacAddress": "02:42:ac:11:00:02",
+                    "MacAddress": "02:42:ac:11:00:**",
                     "DriverOpts": null
                 }
             }
